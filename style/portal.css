@@ -1,0 +1,184 @@
+body {
+  background-color: #666666;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+h1 {
+  background-color: #ffffff;
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+p {
+  color: #ffffff;
+}
+
+.box {
+  width: 99%;
+  height: 35%;
+  background-color: #16562a;
+  border-radius: 20px;
+  padding: 4px;
+  border-style: solid;
+  border-color: #666666;
+  overflow-y: hidden;
+}
+
+.textClass {
+  width: 98%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 5px;
+  height: 7%;
+  margin-bottom: 2px;
+}
+
+.buttons {
+  width: 30%;
+  align-content: center;
+  border-radius: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 2px;
+  margin-top: 5px;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.buttonClass {
+  background-color: #4CAF50;
+  width: 50%;
+  border: solid;
+  border-color: #16562a;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.buttonClass:hover {
+  background-color: #ffffff;
+  color: #4CAF50;
+  border-style: solid;
+  border-color: #16562a;
+}
+
+.add {
+  height: 2%;
+  width: 8%;
+}
+.addButton {
+  background-color: #4CAF50;
+  border: solid;
+  border-color: #ffffff;
+  color: white;
+  text-align: center;
+  margin: 2px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.addButton:hover {
+  background-color: #ffffff;
+  color: #4CAF50;
+  border-style: solid;
+  border-color: #16562a;
+}
+
+.marquee {
+  height: 6%;
+  padding: 2px;
+  border-radius: 20px;
+  font-size:29px;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: Black;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee b {
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+.slideUpload {
+  background-color: #16562a;
+  border-radius: 20px;
+  width: 60%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.slideCenter {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+  margin-top: 6%;
+}
+
+.slideshow {
+  background-color: #16562a;;
+  flex-grow: 1;
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+img {
+  object-fit: contain;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slidediv {
+  border-radius: 20px;
+  overflow-y: hidden;
+  display: flex;
+  width: 100%;
+  height: 56%;
+}
